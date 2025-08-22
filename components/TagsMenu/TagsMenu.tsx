@@ -4,7 +4,19 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import css from "./TagsMenu.module.css";
 
-const TAGS = ["All", "Work", "Personal", "Meeting", "Shopping", "Todo"];
+const TAGS = [
+  "All",
+  "Work",
+  "Personal",
+  "Meeting",
+  "Shopping",
+  "Ideas",
+  "Travel",
+  "Finance",
+  "Health",
+  "Important",
+  "Todo",
+];
 
 export default function TagsMenu() {
   const [isOpen, setIsOpen] = useState(false);

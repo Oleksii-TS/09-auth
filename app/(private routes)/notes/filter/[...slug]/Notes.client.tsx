@@ -6,7 +6,7 @@ import {
   UseQueryResult,
   keepPreviousData,
 } from "@tanstack/react-query";
-import { fetchNotes, NotesHttpResponse } from "@/lib/api";
+import { fetchNotes, NotesHttpResponse } from "@/lib/api/clientApi";
 import type { Note } from "@/types/note";
 import { useDebounce } from "@/hooks/useDebouncedValue";
 import SearchBox from "@/components/SearchBox/SearchBox";
